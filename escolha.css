@@ -1,0 +1,126 @@
+body{
+    background-color: #222129;
+}
+
+.titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #f5f6fa;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    color: #f5f6fa;
+    padding: 60px 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor:  pointer;
+    border-radius: 20px;
+    background-color: #222129;
+    transition: 0.3s;
+    border: 1px solid;
+    border-color: #5a4bd1;
+    flex: 1;
+    min-width: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.logo {
+    padding: 10px 20px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5f6fa;
+}
+
+.vest {
+    color: #6c5ce7;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.btn-voltar {
+    padding: 10px 20px;
+    background-color: #222129;
+    color: #f5f6fa;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.topo {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    padding: 20px;
+    gap: 10px; 
+}
+
+.card i {
+    color: #614feb;
+    font-size: 60px;
+}
+
+.card p {
+    min-height: 60px;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .logo h2 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .comecar {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}

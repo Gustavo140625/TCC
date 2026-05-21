@@ -1,0 +1,57 @@
+body {
+    background-color: #222129;
+}
+
+.logo {
+    padding: 10px 20px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f5f6fa;
+}
+
+.vest {
+    color: #6c5ce7;
+}
+
+.btn-voltar {
+    padding: 10px 20px;
+    background-color: #222129;
+    color: #f5f6fa;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.dias {
+    display: flex;
+    gap: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0,3s;
+    background: none;
+    color: #6c5ce7;
+}
+
+button:hover{
+
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
