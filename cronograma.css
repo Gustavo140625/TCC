@@ -277,8 +277,8 @@ button:hover {
 
 .cl-checkbox > input:checked:disabled + span::before,
 .cl-checkbox > input:indeterminate:disabled + span::before {
-    border-color: transparent;
-    background-color: currentColor;
+    border-color: #00b894;
+    background-color: #00b894;
 }
 
 /* ===== FIM DO CHECKBOX CUSTOMIZADO ===== */
@@ -294,7 +294,7 @@ button:hover {
 
 /* Quando marcado como concluído */
 .lista-materias input[type="checkbox"]:checked + label {
-    color: #a29bfe;
+    color: #00b894;
     text-decoration: line-through;
     opacity: 0.7;
 }
@@ -314,7 +314,7 @@ button:hover {
 }
 
 .progresso-percent {
-    color: #6c5ce7;
+    color: #00b894;
     font-weight: bold;
 }
 
@@ -330,7 +330,7 @@ button:hover {
 /* Preenchimento da barra (animado) */
 .progresso-fill {
     height: 100%;
-    background: linear-gradient(90deg, #6c5ce7, #a29bfe);
+    background: linear-gradient(90deg, #00b894, #00b894);
     border-radius: 10px;
     transition: width 0.4s ease;
 }

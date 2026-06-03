@@ -124,3 +124,9 @@ header {
         gap: 10px;
     }
 }
+
+.link-enem {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+}

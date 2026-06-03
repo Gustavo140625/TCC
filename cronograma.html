@@ -19,6 +19,8 @@
 
      <h1 class="titulo">Seu cronograma</h1>
 
+
+
      <div class="dias">
 
         <button class="btn-dia" data-dia="segunda">Segunda</button>
@@ -31,6 +33,37 @@
 
      </div>
 
-    <script src="script.js"></script>
+
+    
+    <script src="cronograma.js"></script>
+
+     </div>
+     
+
+     <!-- NOVO: Seção de matérias (aparece quando seleciona um dia) -->
+      <div class="materias-container">
+        <div class="materias-header">
+          <h2>Disciplinas de <span class="dia-selecionado">Segunda</span></h2>
+        </div>
+
+        <!-- NOVO: Lista de matérias com checkboxes -->
+         <ul class="lista-materias" id="lista-materias">
+             <!-- Os itens aparecem dinamicamente aqui -->
+         </ul>
+
+         <!-- NOVO: Barra de progresso -->
+            <div class="progresso-container">
+                <div class="progresso-"label>
+                    <span>Progresso do dia</span>
+                    <span class="progresso-percent">0%</span>
+                </div>
+                <div class="progresso-bar">
+                    <div class="progresso-fill" style="width: 0%"></div>
+                </div>
+                
+      </div>
+
+
+    
 </body>
-</html>
+</html>>
